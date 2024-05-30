@@ -25,6 +25,7 @@ use App\Http\Controllers\front\FrontController;
 //     return view('welcome');
 // });
 
+
 Route::get('/clear-cache', function () {
    Artisan::call('cache:clear');
    Artisan::call('route:clear');
